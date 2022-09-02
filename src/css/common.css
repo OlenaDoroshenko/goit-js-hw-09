@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  margin-top: 40px;
+}
+
+.field {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10%;
+  background-color: orange;
+  box-shadow: 5px 5px#808080;
+}
+
+.value {
+  font-size: 76px;
+  font-weight: 700;
+}
