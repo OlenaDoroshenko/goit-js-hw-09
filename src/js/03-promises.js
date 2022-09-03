@@ -27,7 +27,6 @@ function submitForm(e) {
 
       delay += Number(form.elements.step.value);
   }
-  clearInterval(timerId);
 }
 
 function createPromise(position, delay) {
